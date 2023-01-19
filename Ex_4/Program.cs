@@ -43,7 +43,7 @@ else if (argument == 2) //Блок рассчета расстояния меж�
     Console.Write("Введите координату z первой точки: ");
     int z2 = int.Parse(Console.ReadLine()!);
 
-    double rasstoyanie = Math.Pow((Math.Pow((x2 - x1),2) + Math.Pow((y2 - y1),2)+Math.Pow((z2 - z1),2)),0.5);    
+    double rasstoyanie = Math.Pow((Math.Pow((x2 - x1),2) + Math.Pow((y2 - y1),2) + Math.Pow((z2 - z1),2)),0.5);    
 
     Console.WriteLine("Рассчет представлен для 3D пространства.");
     if (rasstoyanie == 0)
